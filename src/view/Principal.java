@@ -14,7 +14,7 @@ public class Principal {
 
 		do {
 			opcao = Integer.parseInt(JOptionPane.showInputDialog(
-					"Digite o exerxício para exibição:\n 1) Criar uma função recursiva que receba 2 valores A e B e, por somas, apresente o resultado da multiplicação de A por B.\n 2) Criar uma função recursiva que receba o dividendo e o divisor de uma operação de divisão e, por subtrações, exiba o resto da divisão.\r\n 3) Construir uma função recursiva que receba um vetor e seu tamanho e apresente a quan�dade de números pares existentes no vetor.Considere que a entrada deve ser, apenas de números naturais diferentes de zero.\n\n Para SAIR pressione 0."));
+					"Digite o exerxício para exibição:\n 1) Criar uma função recursiva que receba 2 valores A e B e, por somas, apresente o resultado da multiplicação de A por B.\n 2) Criar uma função recursiva que receba o dividendo e o divisor de uma operação de divisão e, por subtrações, exiba o resto da divisão.\r\n 3) Construir uma função recursiva que receba um vetor e seu tamanho e apresente a quantidade de números pares existentes no vetor.Considere que a entrada deve ser, apenas de números naturais diferentes de zero.\n\n Para SAIR pressione 0."));
 			switch (opcao) {
 			case 1:
 				umme.base();

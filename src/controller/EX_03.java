@@ -13,10 +13,10 @@ public class EX_03 {
 		Random random = new Random();
 
 		for (int i = 0; i < tamanho; i++) { // carregando a função com números aleatórios
-			vetor[i] = random.nextInt();
+			vetor[i] = random.nextInt(1);
 		}
 
-		JOptionPane.showMessageDialog(null, "Nesse vetor há: " + recursiva(vetor, tamanho) + " numeros pares gerados aleatoriamente");
+		JOptionPane.showMessageDialog(null, "Nesse vetor há " + recursiva(vetor, tamanho) + " numeros pares gerados aleatoriamente");
 	}
 
 	private static int recursiva(int[] vetor, int t) {
